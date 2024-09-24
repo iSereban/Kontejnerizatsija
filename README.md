@@ -107,9 +107,9 @@ docker-compose -f docker-compose.prod.yml up -d
 docker-compose -f docker-compose.lab.yml up -d
 ```
 
-![docker_compose](docker_compose.png1)
-![docker_compose](docker_compose.png2)
-![docker_compose](docker_compose.png3)
+![docker_compose](docker_compose1.png)
+![docker_compose](docker_compose2.png)
+![docker_compose](docker_compose3.png)
 
 **Проверка работы:**
    Для проверки работы контейнеров используем команду на трех нодах (dev, prod, lab):
@@ -217,7 +217,7 @@ docker-compose -f docker-compose.lab.yml up -d
 ```
 
 ![docker_compose2](docker_compose_2.png)
-![docker_compose2](docker_lab_2.png)
+![docker_lab2](docker_lab_2.png)
 
 
 ### Вывод логов из разных окружений:
@@ -232,5 +232,5 @@ docker-compose -f docker-compose.lab.yml up -d
    docker-compose -f docker-compose.lab.yml logs
    ```
    ![lab](lab2.png)
-**Выполнил студент: Коваль С. А. группы разработчиков**
+**Выполнил студент GB: Коваль С. А. группы разработчиков**
 
